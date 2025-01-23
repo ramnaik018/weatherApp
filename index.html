@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=fd0974b3cebaa623dd17eedf62f68720 -->
+    <header id="header">Weather Forecast App</header>
+    <section id="container">
+      <div id="info">
+        <h3 id="city">city name</h3>
+        <h1 id="temperature">temperature</h1>
+        <h4 id="speed">wind speed</h4>
+        <h4 id="humidity">humidity</h4>
+      </div>
+      <div id="city">
+        <input id="input" type="text" placeholder="Enter the city.." />
+        <button id="btn">Search</button>
+      </div>
+    </section>
+    <footer id="footer">Dev and source code</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
